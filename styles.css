@@ -1,0 +1,112 @@
+h1 {
+  font-family: fantasy;
+  color: green;
+  text-align: center;
+  font-size: x-large;
+  background-color: lemonchiffon;
+}
+*{
+  background-color: lemonchiffon;
+}
+
+h2
+ {
+  font-family: Roboto;
+  color: rgb(4, 213, 4);
+  background-color: rgb(9, 76, 9);
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+h3
+ {
+font-family:fantasy;
+color: green;
+text-align: center;
+text-pos
+
+}
+h4 {
+font-family:fantasy;
+color: lawngreen;
+background-color: green;
+text-align: center;
+}
+
+p {
+  text-align: left;
+ color:rgb(115, 135, 59);
+ font-family: 'Times New Roman';
+ 
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "masthead masthead masthead "
+    "Image1 Image2 Image3"
+    "Image4 Journalentry Image5";
+}
+.masthead {
+  grid-area: masthead;
+}
+.Image1 {
+  grid-area: Image1;
+}
+.Image2 {
+  grid-area: Image2;
+}
+.Image3 {
+  grid-area: Image3;
+}
+.Image4 {
+  grid-area: Image4;
+}
+.Journalentry {
+  grid-area: Journalentry;
+}
+.Image5 {
+  grid-area: Image5;
+}
+img {
+  width: 20%
+  height: 20%
+}
+
+@media only screen and (min-width:768px) {
+  .screen {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-areas:
+  "masthead masthead masthead "
+    "Image1 Image2 Image3"
+    "Image4 Journalentry Image5"
+  
+  }
+}
+a {
+  color:hotpink;
+  }
+a:visited {
+    color:rgb(210, 148, 210);
+    }
+a:hover {
+      color:red;
+      font-weight: bold;
+    }
+
+.textgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "h3line h4line h5line"
+}
+img{
+  border:  10px solid;
+  border-color: palegreen;
+}
+.photo{
+  max-width:100%;
+  height: auto;
+}
